@@ -53,7 +53,7 @@ function App() {
      <h2>todo app</h2>
      <div className="container">
       <div className="input-box">
-        <input type="text" value={input} onChange={(e)=>handleInput(e)}  placeholder='Enter task' /> {update ? <button onClick={handleUpdate}>update</button>: <button onClick={handleTask}>add task</button> }
+        <input type="text" value={input} onChange={(e)=>handleInput(e)}  placeholder='Enter task' /> {update ? <button  onClick={handleUpdate}>UPDATE</button>: <button onClick={handleTask}>ADD TASK</button> }
       </div>
       <div className="list">
         <ul>
